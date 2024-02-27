@@ -1,0 +1,24 @@
+{
+  "name": "packagetemplate",
+  "version": "2.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test-1": "nodemon ./test-scripts/1.js",
+    "test-2": "nodemon ./test-scripts/2.js"
+  },
+  "keywords": [],
+  "author": "Lee Bowyer",
+  "license": "",
+  "dependencies": {
+      "@VanillaCX/Store": "github:VanillaCX/Store",
+      "@VanillaCX/Query": "github:VanillaCX/Query",
+      "@VanillaCX/Schema": "github:VanillaCX/Schema",
+      "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
+
