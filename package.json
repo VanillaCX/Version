@@ -6,13 +6,20 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test-1": "nodemon ./test-scripts/1.js",
-    "test-2": "nodemon ./test-scripts/2.js"
+    "test-2": "nodemon ./test-scripts/2.js",
+    "test-3": "nodemon ./test-scripts/3.js",
+    "test-4": "nodemon ./test-scripts/4.js",
+    "test-5": "nodemon ./test-scripts/5.js",
+    "test-6": "nodemon ./test-scripts/6.js",
+    "test-7": "nodemon ./test-scripts/7.js",
+    "test-8": "nodemon ./test-scripts/8.js",
+    "test-9": "nodemon ./test-scripts/9.js"
   },
   "keywords": [],
   "author": "Lee Bowyer",
   "license": "",
   "dependencies": {
-      "@VanillaCX/Store": "github:VanillaCX/Store",
+      "@VanillaCX/Errors": "github:VanillaCX/Errors",
       "@VanillaCX/Query": "github:VanillaCX/Query",
       "@VanillaCX/Schema": "github:VanillaCX/Schema",
       "dotenv": "^16.3.1"
